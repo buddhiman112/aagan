@@ -1,0 +1,193 @@
+/*
+Selectors:
+1. Tag
+2. Id
+3. Class
+4. Descendant
+5. Child
+6. Universal
+7. Pseudo
+    i) Element
+    ii) Class: hover
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#main
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header
+{
+    width: 1200px;
+    height: 100px;
+    background-color: #eeeeee;
+    float: left;
+    display: flex;
+}
+
+.logo
+{
+    height: 100px;
+    width: 150px;
+}
+.logo img
+{
+    height: 100px;
+    width: 150px;
+}
+.title
+{
+    height: 100px;
+    width: 550px;
+}
+.title h1
+{
+    margin-top:  10px;
+    font-family: "monotype corsiva";
+    font-size: 48px;
+    color: brown;
+}
+
+.title h4
+{
+    text-indent: 250px;
+    color: blueviolet;
+}
+
+.social
+{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: end;
+}
+.social div
+{
+    margin-right: 10px;
+}
+.social h3
+{
+    margin: 10px 0;
+}
+.social a
+{
+    text-decoration: none;
+}
+.social a img
+{
+    height: 30px;
+    width: 30px;
+}
+
+#nav
+{
+    width: 1200px;
+    background-color: grey;
+    float: left;
+}
+
+#nav ul li
+{
+    float: left;
+    margin: 10px 20px;
+    list-style-type: none;
+}
+
+#nav ul li ul li
+{
+    float: none;
+    background-color: darkblue;
+    margin: 0;
+    padding: 5px 10px;
+    border-bottom: 1px dotted silver;
+}
+
+#nav ul li ul
+{
+    display: none;
+    position: absolute;
+}
+
+#nav ul li:hover ul
+{
+    display: block;
+}
+
+#nav ul li a
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#slider
+{
+    width: 1200px;
+    height: 400px;
+    background-color: aquamarine;
+    float: left;
+}
+
+#display
+{
+    width: 1200px;
+    height: 300px;
+    background-color: antiquewhite;
+    float: left;
+    /* display: flex; */
+}
+
+.disp
+{
+    width: 250px;
+    height: 250px;
+    background-color: violet;
+    margin-top: 25px;
+    margin-left: 40px;
+    float: left;
+}
+
+#testimonial
+{
+    width: 1200px;
+    height: 300px;
+    background-color: chocolate;
+    float: left;
+}
+
+.review
+{
+    width: 555px;
+    height: 250px;
+    background-color: cadetblue;
+    float: left;
+    margin: 25px 0 25px 30px; /* T R B L */
+}
+
+#footer
+{
+    width: 1200px;
+    height: 200px;
+    background-color: blueviolet;
+    float: left;
+}
+
+/* registration page */
+#reg
+{
+    float: left;
+}
+#reg form
+{
+    margin: 50px;
+}
+#reg form .form-group
+{
+    margin: 5px 0;
+}

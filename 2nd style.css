@@ -1,0 +1,52 @@
+#main{
+    width: 1200px;
+    background-color: aqua;
+    height: 100px;
+}
+#header{
+    width: 1200px;
+    float: left;
+    display: flex;
+}
+logo{
+    height: 200px;
+    width: 200px;
+}
+.social img{
+    width:25px;
+    float: left;
+    height:25px;
+}
+.social h2{
+    justify-content: flex-end;
+    float: left;
+    text-align: center;
+}
+.title{
+    display: flex;
+    height: 25px;
+    float: left;
+
+}
+#nav{
+    height: 200px;
+    width: 1200px;
+    float: left;
+    background-color: coral;
+
+}
+#nav ul li{
+    height:100px;
+    width: 100px;
+    float:left;
+}
+li{
+    margin: 10p 20px;
+    float: left;
+    text-decoration:none    ;
+}
+#nav ul li ul li{
+    height:100px;
+    float: left;
+    text-decoration: none;
+}

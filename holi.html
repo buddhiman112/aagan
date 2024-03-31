@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Colors Day Greeting</title>
+    <link rel="stylesheet" href="holi.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="content">
+            <h1 id="greeting">Happy Colors Day!</h1>
+            <p>Wishing you a day filled with vibrant colors and joy!</p>
+            <button id="holiButton" onclick="showHoliMessage()">Click for Happy Holi!</button>
+            <div id="holiMessage" style="display: none;">
+                <h2>Happy Holi!</h2>
+                <p>May your life be as colorful and joyful as the festival of Holi!</p>
+            </div>
+        </div>
+        <img src="holi img.webp" alt="Nepal Flag">
+    </div>
+
+    <script>
+        function showHoliMessage() {
+            var holiMessage = document.getElementById("holiMessage");
+            holiMessage.style.display = "block";
+        }
+    </script>
+</body>
+
+</html>

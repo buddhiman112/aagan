@@ -1,0 +1,43 @@
+bodey {
+font-family: arial,sans-serif;
+margin: 0;
+padding: 0;
+
+}
+header{
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+nav{
+    background-color: #666;
+
+}
+nav ul{
+    list-style-type: none ;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+nav ul li{
+    display:inline;
+    margin-right:20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+section{
+    padding:20px;
+
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: centre;
+    padding: 10px 0;
+}

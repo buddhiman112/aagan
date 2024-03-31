@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="logo">
+                <img src="images/logo.png" alt="company logo">
+            </div>
+            <div class="title">
+                <h1>E - Shopping Nepal</h1>
+                <h4>Shop your way</h4>
+            </div>
+            <div class="social">
+                <div>
+                    <h3>Follow Us:</h3>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="images/fb.png" alt="facebook logo">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="images/in.png" alt="instagram logo">
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img src="images/yt.png" alt="youtube logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">User &nabla;</a>
+                    <ul>
+                        <li><a href="register.html">Register</a></li>
+                        <li><a href="#">Sign In</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div id="reg">
+            <form method="get" action="save.php" 
+                enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="fn">Full Name</label>
+                    <input type="text" name="fullname" id="fn"
+                    maxlength="5" required pattern="[a-zA-Z0-9\s]+">
+                </div>
+                
+                <div class="form-group">
+                    <label for="">Address</label>
+                    <input type="text" name="address" 
+                        placeholder="Address..." >
+                </div>
+
+                <div class="form-group">
+                    <label for="">DoB</label>
+                    <input type="date" name="dob" value="2000-01-31" 
+                    min="1989-01-01" max="2004-01-01">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Gender</label>
+                    <input type="radio" name="gender" value="Male" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="Female" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="Other" id="other">
+                    <label for="other">Other</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Fields:</label>
+                    <input type="checkbox" name="fields[]" value="Programming">
+                    <label for="">Programming</label>
+                    <input type="checkbox" name="fields[]" value="Designing" checked>
+                    <label for="">Designing</label>
+                    <input type="checkbox" name="fields[]" value="Marketing">
+                    <label for="">Marketing</label>
+                    <input type="checkbox" name="fields[]" value="Administration">
+                    <label for="">Administration</label>
+                    <input type="checkbox" name="fields[]" value="Business">
+                    <label for="">Business</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Province</label>
+                    <select name="province" id="" required>
+                        <option value="">Select Province</option>
+                        <option value="Koshi">Koshi</option>
+                        <option value="Madhesh">Madhesh</option>
+                        <option value="Bagmati" selected>Bagmati</option>
+                        <option value="Gandaki">Gandaki</option>
+                        <option value="Lumbini">Lumbini</option>
+                        <option value="Karnali">Karnali</option>
+                        <option value="Sudur Paschim">Sudur Paschim</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Comment</label>
+                    <textarea name="comment" id="" cols="30" 
+                    rows="5" placeholder="Comment here...">Previous Comment</textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Password</label>
+                    <input type="password" name="pwd">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Mobile</label>
+                    <input type="number" name="mobile" min="0" max="10">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Website</label>
+                    <input type="url" name="website">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Range</label>
+                    <input type="range" name="range" min="-5" max="5">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Color</label>
+                    <input type="color" name="color">
+                </div>
+
+                <div class="form-group">
+                    <label for="">CV</label>
+                    <input type="file" name="cv">
+                </div>
+
+                <div class="form-group">
+                    <input type="button" value="Click">
+                    <input type="reset">
+                    <input type="submit" value="Register">
+                </div>
+
+                <div class="form-group">
+                    <button type="button">Click</button>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Register</button>
+                </div>
+
+            </form>
+        </div>
+        
+        <div id="footer"></div>
+    </div>
+</body>
+</html>

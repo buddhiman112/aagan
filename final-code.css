@@ -1,0 +1,292 @@
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    float: left;
+    display: flex;
+    text-align: center;
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+    background-color: white;
+}
+
+.logo img {
+    height: 100px;
+    width: 150px;
+}
+
+.title {
+    height: 100px;
+    width: 550px;
+}
+
+.title h1 {
+    margin-top: 10px;
+    font-family: "monotype corsiva";
+    font-size: 48px;
+    color: darkblue;
+    position: relative 10px, 10px;
+    text-align: center;
+}
+
+.title h4 {
+    text-indent: 250px;
+}
+
+.social {
+    height: 100px;
+    /* width: 500px; */
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+
+}
+
+.social h3 {
+    text-align: center;
+}
+
+.social a img {
+    height: 30px;
+    width: 30px;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+#nav {
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
+    float: left;
+}
+
+#nav ul li {
+    float: left;
+    margin: 10px 20px;
+    list-style-type: none;
+}
+
+#nav ul li ul li {
+    float: none;
+    background-color: darkblue;
+    margin: 0;
+    padding: 5px 10px;
+    border-bottom: 1px dotted silver;
+}
+
+#nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+#nav ul li:hover ul {
+    display: block;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: rgb(red, green, blue);
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+.social {
+    height: 100px;
+    /* width: 500px; */
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+
+}
+
+.social h3 {
+    text-align: center;
+}
+
+.social a img {
+    height: 30px;
+    width: 30px;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+#paragra h1 {
+    margin: 20px;
+    padding: 5px;
+}
+
+#paragra p {
+    margin: 20px;
+    padding: 5px;
+}
+
+#slider {
+    width: 100%;
+}
+
+#slider img {
+    width: 100%;
+
+    object-fit: cover;
+
+
+}
+
+#slider h1 {
+    position: relative;
+    top: -825PX;
+    left: 100px;
+    right: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#display h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.slider img {
+    width: 370px;
+    height: 400px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#container h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.info {
+    background-color: bisque;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 370px;
+    height: 600px;
+    margin-left: 5%;
+}
+
+.info img {
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.info p {
+    margin: 5px;
+    padding: 5px;
+}
+
+.image img {
+    width: 100%;
+    padding: 5px;
+    padding-top: 10%;
+    z-index: -1;
+    /* margin-right: 40%; */
+}
+
+#container {
+    width: 100%;
+}
+
+.content {
+    width: 500px;
+    height: 285px;
+    background-color: red;
+    margin-left: 55%;
+    margin-top: -300px;
+    z-index: 4;
+    box-shadow: 5px;
+    text-shadow: 5px;
+
+}
+
+.content h2 {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.content p {
+    margin: 5px;
+    padding: 5px;
+}
+
+#footer {
+    background-color: whitesmoke;
+    height: auto;
+    width: 100%;
+    padding-top: 100px;
+}
+
+#footer h5 {
+    text-align: center;
+    color: orange;
+}
+
+#footer h5 a {
+    color: #234423;
+    ;
+    text-decoration: none;
+
+}
+
+#bottom-footer {
+    width: 100%;
+    float: left;
+}
+
+
+/* .container1 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 138px;
+} */
+
+.footer {
+    width: 40%;
+}
+
+.footer-content {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+}
+
+.footer-content h3 {
+    font-size: 25px;
+    /* padding-top: 100px; */
+    display: flex;
+
+}
+
+.footer-content .social {
+    margin-top: 50px;
+}
+
+#footer list ul li {
+    text-decoration: none;
+    text-justify: distribute;
+}
+
+h5 {
+    position: relative;
+    /* top: 380px; */
+    left: 150px;
+}

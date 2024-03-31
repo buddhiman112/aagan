@@ -1,0 +1,127 @@
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+}
+
+#header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px;
+    padding: 20px;
+}
+
+#img1 {
+    width: 100%;
+    height: 600px;
+}
+
+
+
+.slide {
+    width: 380px;
+    height: 500px;
+    background-color: antiquewhite;
+    float: left;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.slide img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.slide h1 {
+    text-align: center;
+}
+
+.slide h2 {
+    text-align: center;
+}
+
+#description {
+    background-color: blanchedalmond;
+}
+
+#description h2 {
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+}
+
+#description p {
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer {
+    width: 40%;
+}
+
+.footer-content {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+}
+
+.footer-content h3 {
+    font-size: 25px;
+    /* padding-top: 100px; */
+    display: flex;
+
+}
+
+.footer-content .social {
+    margin-top: 50px;
+}
+
+#footer list ul li {
+    text-decoration: none;
+    text-justify: distribute;
+}
+
+
+.social a img {
+    height: 30px;
+    width: 30px;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+#nav {
+    width: 100%;
+    background-color: rgb(171, 36, 195);
+    float: left;
+}
+
+#nav ul li {
+    float: left;
+    margin: 10px 20px;
+    list-style-type: none;
+}
+
+#nav ul li ul li {
+    float: none;
+    background-color: rgb(228, 228, 233);
+    margin: 0;
+    padding: 5px 10px;
+    border-bottom: 1px dotted silver;
+}
+
+#nav ul li ul {
+    display: none;
+    position: absolute;
+    transition: 0.5s;
+}
+
+#nav ul li:hover ul {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}

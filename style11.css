@@ -1,0 +1,49 @@
+header {
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+
+@media screen and (MAX-WIDTH: 792px) 
+{
+    header
+     {
+        background-color: green;
+     }
+}
+
+@media screen and (MAX-WIDTH: 560px)
+ {
+    header 
+    {
+        background-color: blue;
+    }
+}
+/* .item1 {
+    grid-area: myArea;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas: 'myArea myArea . . .';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 15px;
+    animation: mymove 0.5s infinite;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  @keyframes mymove {
+    50% {grid-template-areas: '. . . myArea myArea';}
+  } */
+
+
+#grid-container
+{display: grid;
+}
